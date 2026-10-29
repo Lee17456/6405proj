@@ -1,0 +1,14 @@
+.venv/
+.conda-env/
+.conda-executable
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+models/
+runs/
+reports/
+logs/
+.cache/
+local_test_deps/

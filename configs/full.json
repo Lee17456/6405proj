@@ -1,0 +1,9 @@
+{
+  "seeds": [42],
+  "epochs": 3,
+  "learning_rates": {"roberta": 0.00002, "mamba": 0.00002, "longformer": 0.00002},
+  "svm_c": 1.0,
+  "core": {"batch_size": 2, "grad_accum": 8, "gradient_checkpointing": false},
+  "long": {"batch_size": 1, "grad_accum": 16, "gradient_checkpointing": true,
+           "lengths": [512, 1024, 2048, 4096]}
+}

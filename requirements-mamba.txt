@@ -1,0 +1,3 @@
+# Linux + CUDA only; install after torch with --no-build-isolation.
+causal-conv1d==1.5.0.post8
+mamba-ssm==2.2.4
